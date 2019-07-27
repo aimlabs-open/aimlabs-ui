@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'AIMLABS UI Library',
+  title: 'UI Library',
   description: 'Just trying out',
   themeConfig: {
-    logo: '/assets/img/logo.png',
+    logo: '/img/logo.png',
     displayAllHeaders: true,
     nav: [
       { text: 'Home', link: '/' },
@@ -10,9 +10,7 @@ module.exports = {
       { text: 'External', link: 'https://google.com' },
     ],
     sidebar: [
-      '/',
-      '/page-a',
-      ['/page-b', 'Explicit link text']
+      '/'
     ]
   }
 }
