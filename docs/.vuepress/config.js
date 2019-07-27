@@ -6,11 +6,13 @@ module.exports = {
     displayAllHeaders: true,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
+      { text: 'Documentation', link: '/documentation/' },
+      { text: 'www.aimlabs.in', link: 'https://aimlabs.in' },
     ],
     sidebar: [
-      '/'
+      ["/", "Home"],
+      "/Test",
+      "/Test"
     ]
   }
 }
