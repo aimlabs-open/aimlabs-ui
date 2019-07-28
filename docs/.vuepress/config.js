@@ -1,13 +1,14 @@
 module.exports = {
   title: 'UI Library',
   description: 'Just trying out',
+  lastUpdated: 'Last Updated',
   themeConfig: {
     logo: '/img/logo.png',
     displayAllHeaders: true,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/documentation/' },
-      { text: 'www.aimlabs.in', link: 'https://aimlabs.in' },
+      { text: 'Github', link: 'https://github.com/aimlabs/aimlabs-ui' },
     ],
     sidebar: [
       ["/", "Home"],
