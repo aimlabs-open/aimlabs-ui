@@ -2,6 +2,7 @@ module.exports = {
   title: 'UI Library',
   description: 'Just trying out',
   lastUpdated: 'Last Updated',
+  base: 'aimlabs-ui',
   themeConfig: {
     logo: '/img/logo.png',
     displayAllHeaders: true,
