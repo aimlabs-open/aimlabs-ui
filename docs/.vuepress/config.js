@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'aimlabs ui',
+//  title: 'aimlabs ui',
   description: 'User Interface',
   lastUpdated: 'Last Updated',
   base: '/aimlabs-ui/',
@@ -8,8 +8,16 @@ module.exports = {
     displayAllHeaders: true,
     nav: [
       { text: 'HOME', link: '/' },
-      { text: 'Geting Started', link: '/start' },
-      { text: 'Documentation', link: '/documentation/' },
+      {
+        text: 'Documentation',
+        link: '/documentation/',
+        type: 'links',
+        items : [
+          {text: 'Introduction', link: '/documentation/'},
+          {text: 'Geting Started', link: '/documentation/start'}
+        ]
+      },
+
       { text: 'Github', link: 'https://github.com/aimlabs/aimlabs-ui' },
     ],
     sidebar: 'auto'
